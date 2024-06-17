@@ -103,7 +103,7 @@ publishDir = "docs"
 
 
     [params.certification]
-        enable = false
+        enable = true
 
         [[params.certification.list]]
         name = "CKAD - Certified Kubernetes Application Developer"
@@ -113,17 +113,17 @@ publishDir = "docs"
         [[params.certification.list]]
         name = "Docker Certified Associate"
         body = "Docker"
-        date: "February 2019"
+        date = "February 2019"
 
         [[params.certification.list]]
         name = "AWS System Solutions Architect - Associate"
         body = "Amazon Web Services" 
-        date: "April 2018"
+        date = "April 2018"
         
         [[params.certification.list]]
         name = "AWS Cloud Practitioner"
         body = "Amazon Web Services"
-        date: "November 2017"
+        date = "November 2017"
 
     [params.languages]
         enable = false
@@ -244,7 +244,7 @@ publishDir = "docs"
         tagline = "content to be filled"
 
     [params.certifications]
-        enable = true
+        enable = false
 
         [[params.certifications.list]]
         title = "CKAD - Certified Kubernetes Application Developer"
