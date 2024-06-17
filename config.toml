@@ -102,21 +102,28 @@ publishDir = "docs"
         dates = "2012 - 2016"
 
 
-    [params.awards]
+    [params.certification]
         enable = false
 
-        [[params.awards.list]]
-        name = "Excellence Awrd"
-        body = "ZS Associates"
-        date = "2023"
-        [[params.awards.list]]
-        name = "Innovation Star"
-        body = "Codal"
-        date = "2021"
-        [[params.awards.list]]
-        name = "Impact Performer"
-        body = "Cognizant"
-        date = "2017"
+        [[params.certification.list]]
+        name = "CKAD - Certified Kubernetes Application Developer"
+        body = "CNCF"
+        date = "September 2023"
+
+        [[params.certification.list]]
+        name = "Docker Certified Associate"
+        body = "Docker"
+        date: "February 2019"
+
+        [[params.certification.list]]
+        name = "AWS System Solutions Architect - Associate"
+        body = "Amazon Web Services" 
+        date: "April 2018"
+        
+        [[params.certification.list]]
+        name = "AWS Cloud Practitioner"
+        body = "Amazon Web Services"
+        date: "November 2017"
 
     [params.languages]
         enable = false
