@@ -1,0 +1,276 @@
+# Page settings
+
+baseURL = "https://resume-dbcelm.github.io/"
+languageCode = "en"
+title = "Ayush Tiwari - Resume"
+theme = "hugo-devresume-theme"
+
+publishDir = "docs"
+
+[params]
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+    [params.profile]
+        enable = true
+        name = "Ayush Tiwari"
+        tagline = "Senior DevOps Engineer"
+        avatar = "profile-pic.png"
+
+    [params.contact]
+        enable = true
+        location = "Pune, IN"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "962 7403 300"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "dbcelm@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "//dbcelm.github.io"
+        text = "dbcelm.github.io"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Platform and Orchestration"
+        [[params.skills.list.items]]
+        details = "Kubernetes"
+        [[params.skills.list.items]]
+        details = "Helm"
+        [[params.skills.list.items]]
+        details = "Docker/Docker-Compose"
+        [[params.skills.list.items]]
+        details = "Terraform"
+
+        [[params.skills.list]]
+        title = "AWS Services"
+        [[params.skills.list.items]]
+        details = "EKS/ECS"
+        [[params.skills.list.items]]
+        details = "CodeBuild/CodePipeline/"
+        [[params.skills.list.items]]
+        details = "CodeDeploy"
+        [[params.skills.list.items]]
+        details = "Batch/Lambda"
+        [[params.skills.list.items]]
+        details = "Cloudfront/API Gateway/Route53"
+        [[params.skills.list.items]]
+        details = "S3/EFS/FSx"
+        [[params.skills.list.items]]
+        details = "ECR/RDS/SSM/Secrets Manager"
+        [[params.skills.list.items]]
+        details = "Cognito/IAM/Cloudtrail"
+        [[params.skills.list.items]]
+        details = "Cloudwatch/AMP/AMG"
+        [[params.skills.list.items]]
+        details = "WAF/GuardDuty"
+        [[params.skills.list.items]]
+        details = "EC2/VPC"
+
+        [[params.skills.list]]
+        title = "Tools and Languages"
+        [[params.skills.list.items]]
+        details = "ArgoCD"
+        [[params.skills.list.items]]
+        details = "Jenkins/Teamcity/Github Actions"
+        [[params.skills.list.items]]
+        details = "Prometheus/Grafana/"
+        [[params.skills.list.items]]
+        details = "Datadog/Splunk"
+        [[params.skills.list.items]]
+        details = "jFrog"
+        [[params.skills.list.items]]
+        details = "Terraform Cloud/Atlantis"
+        [[params.skills.list.items]]
+        details = "Snyk/Falco/Trivy"
+        [[params.skills.list.items]]
+        details = "Bash/Python/HCL"
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "B.Tech"
+        university = "SRM University, Chennai, Tamil Nadu"
+        dates = "2012 - 2016"
+
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Excellence Awrd"
+        body = "ZS Associates"
+        date = "2023"
+        [[params.awards.list]]
+        name = "Innovation Star"
+        body = "Codal"
+        date = "2021"
+        [[params.awards.list]]
+        name = "Impact Performer"
+        body = "Cognizant"
+        date = "2017"
+
+    [params.languages]
+        enable = false
+
+        [[params.languages.list]]
+        name = "Hindi"
+        level = "Native"
+        [[params.languages.list]]
+        name = "English"
+        level = "Professional"
+
+    [params.interests]
+        enable = false
+
+        [[params.interests.list]]
+        name = "Snooker"
+        [[params.interests.list]]
+        name = "Table Tennis"
+        [[params.interests.list]]
+        name = "Photography"
+        [[params.interests.list]]
+        name = "Travelling"
+
+    [params.summary]
+        enable = true
+        text = "With over 7 years of experience in DevOps, I am passionate about designing and implementing efficient, scalable, and secure cloud native solutions, specialize in creating seamless CI/CD pipelines, optimizing microservice architectures, and enhancing Kubernetes orchestration. My work includes developing scalable microservices, integrating security practices, and automating infrastructure deployment. I thrive on modernizing legacy systems, ensuring zero downtime through innovative deployment strategies, and building observability platforms. Strong focus on adopting cost-saving measures, optimizing application performance, and continuously improving cloud infrastructure to support dynamic and robust environments."
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Cloud Engineering Lead"
+        dates = "Oct 2021 - Present"
+        company = "ZS Associates"
+        details = "Designing specialised platforms with Kubernetes and AWS, designing CI/CD pipelines with Teamcity and ArgoCD, and enforcing IaC based infrastructure provisioning governance with Terraform. Expertise includes developing scalable microservices, integrating static and runtime container security, optimizing GPU usage and scaling, adopting cost-saving measures, and enhancing Kubernetes orchestration with OSS projects. Focused on security, scalability, and efficiency."
+        [[params.experience.list.items]]
+        details = "Designed Internal Developer Platform leveraging Kubernetes platform and Terraform for Python and Node based applications, abstracting Kubernetes complexity for developers ensuring faster delivery times with all security and scalability standards being followed."
+        [[params.experience.list.items]]
+        details = "Developed a generic helm chart which can be leveraged to scale to orchestrate multiple microservices, facilitating standard patterns for all Kubernetes objects."
+        [[params.experience.list.items]]
+        details = "Worked on achieving the SOC 2 Type 1 compliance attestation of the platform as well as setting up the foundations for the SOC 2 Type 2 compliance attestation."
+        [[params.experience.list.items]]
+        details = "ECS provisioning for simpler apps which do not require complex orchestration using Terraform runs on AWS Batch with Fargate and AWS Service Catalog to capture payload JSON."
+        [[params.experience.list.items]]
+        details = "Integration of Sysdig runtime scanners with ECS Fargate and EKS workloads."
+        [[params.experience.list.items]]
+        details = "Orchestrating operational pipelines for EKS node AMI patching."
+        [[params.experience.list.items]]
+        details = "Designing observability platform for EKS clusters leveraging Amazon Managed Prometheus and Amazon Managed Grafana."
+        [[params.experience.list.items]]
+        details = "Developed in-house solution for GPU usage based HPA leveraging DCGM exporter and Prometheus Adapter."
+        [[params.experience.list.items]]
+        details = "Adoption and rollout of container-native BottleRocket OS from AWS for EKS nodes to phase out AL2 for snappier boot-up times and better security."
+        [[params.experience.list.items]]
+        details = "Inclusion of OSS projects like Cilium CNI, Kyverno, Karpenter to enhance Kubernetes orchestration."
+        [[params.experience.list.items]]
+        details = "Developing Terraform modules for AWS resource provisioning using standard naming and configuration best practices."
+        [[params.experience.list.items]]
+        details = "Developing pipelines for hosting LLM’s on EKS ensuring scalability."
+        [[params.experience.list.items]]
+        details = "Adopting cost saving measures by developing event-driven systems on EKS."
+        [[params.experience.list.items]]
+        details = "Designing multi-tenancy patterns for SaaS solutions running on EKS through namespace isolation, Cilium Network Policies, and Resource Budgets."
+
+        [[params.experience.list]]
+        title = "Senior DevOps Engineer"
+        dates = "Feb 2020 - Oct 2021"
+        company = "Codal Inc."
+        details = "Designing CI/CD pipelines for multi-tenant applications using AWS CodePipelines, GitHub Actions, and Jenkins. Expertise in microservice architectures with Docker and Kubernetes, optimizing clusters on AWS ECS and EKS, and automating infrastructure with CloudFormation and Terraform. Skilled in serverless applications, reducing latency, and integrating AWS services."
+        [[params.experience.list.items]]
+        details = "Designing CI/CD for multi-tenant Python Django applications, Node applications, static Angular sites, WordPress, and PHP based sites using AWS CodePipelines, GitHub Actions, and Jenkins."
+        [[params.experience.list.items]]
+        details = "Orchestrating micro-service based architectures over Docker Compose and Kubernetes."
+        [[params.experience.list.items]]
+        details = "Actively optimizing Docker and Kubernetes clusters to adopt security best practices and managing them on AWS ECS, AWS EKS, ensuring scalability, robust availability, and continuous deployments."
+        [[params.experience.list.items]]
+        details = "Designing CloudFormation and Terraform templates to automate infrastructure deployment."
+        [[params.experience.list.items]]
+        details = "Orchestrating Serverless applications over API Gateway and Lambda with SAM templates."
+        [[params.experience.list.items]]
+        details = "Defining reverse proxy configurations in NGINX and Apache."
+        [[params.experience.list.items]]
+        details = "Reducing latency between services, latency for end-users, and optimizing billing costs over AWS and GCP."
+        [[params.experience.list.items]]
+        details = "Setting up alerts on Slack and email for deployment success/failure, application availability, service availability, code best practice issues, branch merge, to name a few."
+        [[params.experience.list.items]]
+        details = "Designing architectures, managing, and integrating every AWS service."
+
+        [[params.experience.list]]
+        title = "Programmer Analyst"
+        dates = "Jul 2016 - Nov 2019"
+        company = "Cognizant"
+        details = "Focused on modernizing legacy systems, migrating Citrix applications to scalable AWS EC2 instances, and ensuring zero downtime with Blue-Green deployments. Expertise in monitoring with CloudWatch, setting up ELK data pipelines, and enhancing visibility with Kibana. Specializes in upgrading MES domains to cloud services."
+        [[params.experience.list.items]]
+        details = "Introducing and adopting cloud services in client’s MES domain which was long due for upgrade and was running predominantly on legacy physical and VM server architecture."
+        [[params.experience.list.items]]
+        details = "Migrating on-premise Citrix hosted applications to AWS EC2 server fleet and making them scalable."
+        [[params.experience.list.items]]
+        details = "Implementing Blue-Green deployment strategy across critical workflows to ensure no application/service downtime while updates are pushed."
+        [[params.experience.list.items]]
+        details = "Preparing log streams in CloudWatch for backend services and applying metric filters to catch errors and trigger alarms."
+        [[params.experience.list.items]]
+        details = "Visualizing web server access data over Kibana and setting up a data pipeline using ELK stack."
+
+    [params.projects]
+        enable = false
+
+        [[params.projects.list]]
+        title = "AWS Resource Provisioning with Terraform and Service Catalogue"
+        tagline = "content to be filled"
+
+        [[params.projects.list]]
+        title = "Operations Pipeline for EKS Upgrades and Patching"
+        tagline = "content to be filled"
+
+        [[params.projects.list]]
+        title = "Project Praesent"
+        tagline = "content to be filled"
+
+    [params.certifications]
+        enable = true
+
+        [[params.certifications.list]]
+        title = "CKAD - Certified Kubernetes Application Developer"
+        details = "CNCF, September 2023"
+
+        [[params.certifications.list]]
+        title = "Docker Certified Associate"
+        details = "Docker, February 2019"
+
+        [[params.certifications.list]]
+        title = "AWS System Solutions Architect - Associate"
+        details = "Amazon Web Services, April 2018"
+        
+        [[params.certifications.list]]
+        title = "AWS Cloud Practitioner"
+        details = "Amazon Web Services, November 2017"
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/dbcelm"
+        title = "dbcelm"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/dbcelm"
+        title = "dbcelm"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//x.com/dbcelm"
+        title = "@dbcelm"
+
+
+
+
