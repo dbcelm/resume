@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://resume-dbcelm.github.io/"
+baseURL = "https://dbcelm.github.io/resume"
 languageCode = "en"
 title = "Ayush Tiwari - Resume"
 theme = "hugo-devresume-theme"
@@ -107,22 +107,18 @@ publishDir = "docs"
 
         [[params.certification.list]]
         name = "CKAD - Certified Kubernetes Application Developer"
-        body = "CNCF"
         date = "September 2023"
 
         [[params.certification.list]]
         name = "Docker Certified Associate"
-        body = "Docker"
         date = "February 2019"
 
         [[params.certification.list]]
         name = "AWS System Solutions Architect - Associate"
-        body = "Amazon Web Services" 
         date = "April 2018"
         
         [[params.certification.list]]
         name = "AWS Cloud Practitioner"
-        body = "Amazon Web Services"
         date = "November 2017"
 
     [params.languages]
@@ -243,22 +239,22 @@ publishDir = "docs"
         title = "Project Praesent"
         tagline = "content to be filled"
 
-    [params.certifications]
+    [params.information]
         enable = false
 
-        [[params.certifications.list]]
+        [[params.information.list]]
         title = "CKAD - Certified Kubernetes Application Developer"
         details = "CNCF, September 2023"
 
-        [[params.certifications.list]]
+        [[params.information.list]]
         title = "Docker Certified Associate"
         details = "Docker, February 2019"
 
-        [[params.certifications.list]]
+        [[params.information.list]]
         title = "AWS System Solutions Architect - Associate"
         details = "Amazon Web Services, April 2018"
         
-        [[params.certifications.list]]
+        [[params.information.list]]
         title = "AWS Cloud Practitioner"
         details = "Amazon Web Services, November 2017"
 
